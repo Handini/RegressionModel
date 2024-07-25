@@ -45,7 +45,7 @@ text-align: justify}
 
 
 ```{r, out.width = "100%", echo = FALSE, fig.align = "center"}
-knitr::include_graphics("assets/life-health-insurance.jpg")
+knitr::include_graphics("life-health-insurance.jpg")
 ```
 
 # Introduction
@@ -68,7 +68,7 @@ library(plotly)
 library(MLmetrics)
 
 # Read Data
-insurance <- read.csv("data_input/insurance.csv")
+insurance <- read.csv("insurance.csv")
 ```
 
 * This dataset has 6 variable:
